@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style type="text/css">
+    .Kont_M{
+        border: 2px solid blue;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       align-items: flex-start;
+       
+    }
+
+    .boxi{
+        border: 2px solid red;
+        flex-basis: 200px;
+        height: 100px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="Kont_M">
+        <div id="b01" class="boxi">
+            Boxi 1
+        </div>
+        <div id="b02" class="boxi">
+            Boxi 2
+        </div>
+        <div id="b03" class="boxi">
+            Boxi 3
+        </div>
+        <div id="b04" class="boxi">
+            Boxi 4
+        </div>
+    </div>
+</body>
+</html>
